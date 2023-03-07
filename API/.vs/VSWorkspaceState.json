@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin\\Debug",
+    "\\Common",
+    "\\Controllers",
+    "\\Models",
+    "\\Processors",
+    "\\Properties",
+    "\\Services",
+    "\\Settings"
+  ],
+  "SelectedNode": "\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
