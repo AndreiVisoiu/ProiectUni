@@ -2,10 +2,6 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System.Globalization;
 
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using Newtonsoft.Json.Linq;
-
 namespace API.Models
 {
     [BsonIgnoreExtraElements]

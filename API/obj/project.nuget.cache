@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5H3v2H3wmifq2nfXmnjowUxFN30rywWYnsBzVqJn9keNylX1U1pPoY229m4Te9YlUlFES7s14YIyXCI0WHbbOQ==",
+  "dgSpecHash": "bYBNQcGWI+x9edIc6O0omokvXvwm8u8b0E0x1Rlf80T2dkLv66SpreZYgo5bZ+QEZ5fi6KfPEUZiZmmfMMIy+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andre\\Desktop\\Uni\\Sem II\\Proiect\\RocketEngineDataAPI-Master\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andre\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Andre\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

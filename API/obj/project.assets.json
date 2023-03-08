@@ -3806,11 +3806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andre\\Desktop\\Uni\\Sem II\\Proiect\\RocketEngineDataAPI-Master\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Andre\\Desktop\\Uni\\Sem II\\Proiect\\RocketEngineDataAPI-Master\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andre\\Desktop\\Uni\\Sem II\\Proiect\\RocketEngineDataAPI-Master\\API\\obj\\",
+      "outputPath": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
