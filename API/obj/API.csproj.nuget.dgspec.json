@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj": {}
+    "C:\\Users\\Andre\\Desktop\\GitHub\\RocketEngineDataAPI\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj": {
+    "C:\\Users\\Andre\\Desktop\\GitHub\\RocketEngineDataAPI\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Andre\\Desktop\\GitHub\\RocketEngineDataAPI\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Andre\\Desktop\\GitHub\\RocketEngineDataAPI\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andre\\Desktop\\GitHub\\ProiectUni\\API\\obj\\",
+        "outputPath": "C:\\Users\\Andre\\Desktop\\GitHub\\RocketEngineDataAPI\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,13 +57,13 @@
               "target": "Package",
               "version": "[2.19.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
-            },
-            "json-ld.net": {
-              "target": "Package",
-              "version": "[1.0.7, )"
             }
           },
           "imports": [

@@ -2,13 +2,7 @@
 using API.Models;
 using API.Services;
 using API.Settings;
-using MongoDB.Bson.IO;
 using MongoDB.Driver;
-using JsonLD;
-
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.Net.Sockets;
 
 namespace API.Processors
 {
@@ -71,15 +65,19 @@ namespace API.Processors
         /// <param name="id"></param>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public async Task<JsonLdParser> Get(string id) {
-            try {
-               RocketModel rocket =  await _rocketService.Get(id);
+        public async Task<String> Get(string id)
+        {
+            try
+            {
+                RocketModel rocket = await _rocketService.Get(id);
 
                 var parser = new JsonLdParser(rocket); // instantiaza parser-ul
 
 
-                return parser; // returneaza parser-ul pentru a fii afisat
-            } catch (Exception ex) {
+                return parser.MakeStringOutput(rocket);
+            }
+            catch (Exception ex)
+            {
                 throw new Exception(ex.Message);
             }
         }
@@ -90,7 +88,7 @@ namespace API.Processors
         /// </summary>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public async Task<JsonLdParser> GetAll()
+        public async Task<String> GetAll()
         {
             try
             {
@@ -98,7 +96,7 @@ namespace API.Processors
 
                 var parser = new JsonLdParser(rockets); // instantiaza parser-ul
 
-                return parser; // returneaza parser-ul pentru a fii afisat
+                return parser.MakeStringOutput(rockets);
             }
             catch (Exception ex)
             {
