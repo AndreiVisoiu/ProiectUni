@@ -46,7 +46,7 @@ namespace API.Controllers
         {
             try
             {
-                JsonLdParser rockets = await _rocketProcessor.GetAll();
+                String rockets = await _rocketProcessor.GetAll();
                 return Ok(rockets);
             }
             catch (Exception ex) 
@@ -65,7 +65,7 @@ namespace API.Controllers
         {
             try
             {
-                JsonLdParser rocket = await _rocketProcessor.Get(id);
+                String rocket = await _rocketProcessor.Get(id);
                 return Ok(rocket);
             }
             catch (Exception ex)
